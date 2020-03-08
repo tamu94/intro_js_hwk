@@ -38,3 +38,7 @@ const handleClick = () => {
 button.on("click",handleClick)
 input.on("change", handleClick)
 // buildTable(tableData)
+
+function playSound () {
+    document.getElementById('play').play();
+  }

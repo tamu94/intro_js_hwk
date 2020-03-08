@@ -40,15 +40,16 @@
                         <label for="date">Enter a Date</label>
 
                         <!-- select #datetime for handleClick() -->
-                        <input class="form-control" id="datetime" type="text"  placeholder="1/11/2011">
-
+                        <input class="form-control" id="datetime" type="text"  placeholder="1/11/2011" onchange="playSound();">
+                       
                       </li>
                     </ul>
                   </div>
 
                   <!-- select #filter-btn-->
-                  <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
-
+                  <audio id="play" src="static/images/CE3Q.mp3"></audio>
+                  <button id="filter-btn" type="button" onclick="playSound();" class="btn btn-default">Filter Table</button>
+      
                 </form>
               </div>
             </div>

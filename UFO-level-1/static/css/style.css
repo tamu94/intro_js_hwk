@@ -98,7 +98,7 @@ select {
   padding: 20px;
   margin: 0;
   background: black;
-  background-image: url("../images/nasa.jpg");
+  background-image: url(https://cdn.spacetelescope.org/archives/images/screen/heic1919a.jpg);
   background-attachment: fixed;
   background-position: bottom center;
   background-size: cover;
@@ -108,6 +108,7 @@ select {
   margin-top: 200px;
   font-size: 0.1rem;
   animation: title 1.2s forwards linear;
+  color: white;
 }
 
 .hero p {
@@ -223,3 +224,4 @@ select {
     opacity: 1;
   }
 }
+
